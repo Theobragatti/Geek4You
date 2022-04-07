@@ -31,6 +31,7 @@ h1 {
     width:115px;
     float: right;
     margin: 0 15px;
+    border-radius: 5px;
 }
 #btnEntrar {
     background-color:white;
@@ -39,6 +40,7 @@ h1 {
     width:80px;
     float: right;
     border-color: rgb(169, 47, 206);
+    border-radius: 5px;
 }
 
 #btnPrimeiroDestaque {
@@ -77,4 +79,29 @@ h1 {
 .space {
   display: inline-block;
   width: 50px;
+}
+
+#btnComprador {
+  background-color:#0f8a75;;
+    color: white;
+    height:35px;
+    width:150px;
+    float: center;
+    border-color: #0f8a75);
+    border-radius: 5px;
+    
+} 
+
+#divBotoes{
+  text-align: center;
+}
+
+#btnVendedor {
+  background-color:rgb(169, 47, 206);
+  color: white;
+  height:35px;
+  width:150px;
+  float: center;
+  border-color: rgb(169, 47, 206);
+  border-radius: 5px;
 }
