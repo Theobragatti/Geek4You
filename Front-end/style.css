@@ -1,18 +1,18 @@
 h1 {
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
   }
 
 #divBusca{
     border:solid 1px;
-    width:300px;
+    width:350px;
     height: 30px;
   }
   
 #txtBusca{
     float:left;
     background-color:transparent;
-    padding-left:5px;
+    padding-left:50px;
     font-size:18px;
     border:none;
     height:32px;
@@ -31,6 +31,7 @@ h1 {
     width:115px;
     float: right;
     margin: 0 15px;
+    border-radius: 5px;
 }
 #btnEntrar {
     background-color:white;
@@ -39,5 +40,68 @@ h1 {
     width:80px;
     float: right;
     border-color: rgb(169, 47, 206);
+    border-radius: 5px;
 }
 
+#btnPrimeiroDestaque {
+  width: 200px;
+  height: 250px;
+  margin: 0 50px; 
+}
+
+#divDestaque {
+  text-align: center;
+}
+
+#btnSegundoDestaque {
+  width: 150px;
+  height: 250px; 
+}
+
+#pTextoDestaque {
+  text-align: center;
+}
+
+#pValorItens {
+  text-align: center;
+}
+
+.spaceTextoDestaque {
+  display: inline-block;
+  width: 70px;
+}
+
+.spaceValorItens {
+  display: inline-block;
+  width: 120px;
+}
+
+.space {
+  display: inline-block;
+  width: 50px;
+}
+
+#btnComprador {
+  background-color:#0f8a75;;
+    color: white;
+    height:35px;
+    width:150px;
+    float: center;
+    border-color: #0f8a75);
+    border-radius: 5px;
+    
+} 
+
+#divBotoes{
+  text-align: center;
+}
+
+#btnVendedor {
+  background-color:rgb(169, 47, 206);
+  color: white;
+  height:35px;
+  width:150px;
+  float: center;
+  border-color: rgb(169, 47, 206);
+  border-radius: 5px;
+}
