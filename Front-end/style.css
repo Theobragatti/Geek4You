@@ -1,18 +1,18 @@
 h1 {
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
   }
 
 #divBusca{
     border:solid 1px;
-    width:300px;
+    width:350px;
     height: 30px;
   }
   
 #txtBusca{
     float:left;
     background-color:transparent;
-    padding-left:5px;
+    padding-left:50px;
     font-size:18px;
     border:none;
     height:32px;
@@ -41,3 +41,40 @@ h1 {
     border-color: rgb(169, 47, 206);
 }
 
+#btnPrimeiroDestaque {
+  width: 200px;
+  height: 250px;
+  margin: 0 50px; 
+}
+
+#divDestaque {
+  text-align: center;
+}
+
+#btnSegundoDestaque {
+  width: 150px;
+  height: 250px; 
+}
+
+#pTextoDestaque {
+  text-align: center;
+}
+
+#pValorItens {
+  text-align: center;
+}
+
+.spaceTextoDestaque {
+  display: inline-block;
+  width: 70px;
+}
+
+.spaceValorItens {
+  display: inline-block;
+  width: 120px;
+}
+
+.space {
+  display: inline-block;
+  width: 50px;
+}
