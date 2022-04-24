@@ -82,13 +82,13 @@ h1 {
 }
 
 #btnComprador {
-  background-color:#0f8a75;;
+  background-color:#0f8a75;
     color: white;
     height:35px;
     width:150px;
     float: center;
-    border-color: #0f8a75);
-    border-radius: 5px;
+    border-color: #0f8a75;
+    border-radius:5px;
     
 } 
 
@@ -104,4 +104,68 @@ h1 {
   float: center;
   border-color: rgb(169, 47, 206);
   border-radius: 5px;
+}
+
+#btnAdicionar {
+  background-color:#816ae9;
+    color: white;
+    height:35px;
+    width:150px;
+    float: center;
+    border-color: #816ae9;
+    border-radius:5px;
+    
+} 
+
+#btnComprar {
+  background-color:#a72ba0;
+    color: white;
+    height:35px;
+    width:100px;
+    float: center;
+    border-color: #a72ba0;
+    border-radius:5px;
+    
+} 
+
+#divProduto {
+  text-align: left;
+}
+
+#btnProduto {
+  width: 250px;
+  height: 300px;
+  margin: 0 50px; 
+}
+
+#divFrete {
+  margin-right: auto;
+  border:solid 1px;
+  width:300px;
+  height: 30px;  
+}
+
+#txtFrete{
+  float:left;
+  background-color:transparent;
+  padding-left:50px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:200px;
+}
+
+#btnContato {
+    background-color:#816ae9;
+    color: white;
+    height:35px;
+    width:300px;
+    float: center;
+    border-color: #816ae9;
+    border-radius:5px;
+    
+} 
+
+#divContato {
+  text-align: left;
 }
