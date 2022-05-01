@@ -1,5 +1,4 @@
 h1 {
-    font-size: 35px;
     text-align: center;
   }
 
@@ -128,10 +127,6 @@ h1 {
     
 } 
 
-#divProduto {
-  text-align: left;
-}
-
 #btnProduto {
   width: 250px;
   height: 300px;
@@ -169,3 +164,29 @@ h1 {
 #divContato {
   text-align: left;
 }
+
+#sessaoCorpo {
+  width:960px;
+  margin: auto;
+  }
+
+  #divConteudo {
+  display: table;
+  }
+  
+  #divImagem {
+  display: table-cell;
+  float: left;
+  }
+
+  #divTexto {
+  display: table-cell;
+  float: left;
+  width: 300px;
+  margin-top: -20px; 
+  margin-left: 20px;
+  }
+
+  #pTextoTitulo {
+    font-weight: bold
+  }
