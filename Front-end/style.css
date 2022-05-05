@@ -1,4 +1,8 @@
+@import url('https://fonts.google.com/specimen/Rubik+Bubbles#standard-styles');
+
 h1 {
+    font-family:'Rubik Bubbles','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
     text-align: center;
   }
 
@@ -81,14 +85,14 @@ h1 {
 }
 
 #btnComprador {
-  background-color:#0f8a75;
-    color: white;
-    height:35px;
-    width:150px;
-    float: center;
-    border-color: #0f8a75;
-    border-radius:5px;
-    
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color:#0f8a75;;
+  color: white;
+  height:35px;
+  width:150px;
+  float: center;
+  border-color: #0f8a75;
+  border-radius: 5px;
 } 
 
 #divBotoes{
@@ -106,7 +110,7 @@ h1 {
 }
 
 #btnAdicionar {
-  background-color:#816ae9;
+    background-color:#816ae9;
     color: white;
     height:35px;
     width:150px;
@@ -117,7 +121,7 @@ h1 {
 } 
 
 #btnComprar {
-  background-color:#a72ba0;
+    background-color:#a72ba0;
     color: white;
     height:35px;
     width:100px;
@@ -190,3 +194,20 @@ h1 {
   #pTextoTitulo {
     font-weight: bold
   }
+  
+  #btnBusca{
+    float: right;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    color: black;
+    border-radius: auto;
+  }
+  
+  #btnGeek{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution: auto;
+  }
+  
