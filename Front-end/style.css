@@ -7,19 +7,22 @@ h1 {
   }
 
 #divBusca{
-    border:solid 1px;
-    width:350px;
-    height: 30px;
+    border:solid 2px;
+    width: 410px;
+    height: 32px;
   }
   
 #txtBusca{
-    float:left;
+    font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    float:center;
     background-color:transparent;
-    padding-left:50px;
-    font-size:18px;
+    padding: right 5px;
+    padding: left 5px;
+    font-size:22px;
     border:none;
-    height:32px;
-    width:260px;
+    height:25px;
+    width:350px;
   }
 
 #divBusca {
@@ -28,15 +31,17 @@ h1 {
 }
 
 #btnCadastre {
+    font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color:#0f8a75;
     color: white;
     height:35px;
     width:115px;
     float: right;
-    margin: 0 15px;
+    margin: 0 -1px;
     border-radius: 5px;
 }
 #btnEntrar {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color:white;
     color: rgb(169, 47, 206);
     height:35px;
@@ -44,6 +49,7 @@ h1 {
     float: right;
     border-color: rgb(169, 47, 206);
     border-radius: 5px;
+    margin: 0 15px;
 }
 
 #btnPrimeiroDestaque {
@@ -58,30 +64,35 @@ h1 {
 
 #btnSegundoDestaque {
   width: 150px;
-  height: 250px; 
+  height: 250px;
+  margin: 0 20px; 
 }
 
 #pTextoDestaque {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
 }
 
 #pValorItens {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   text-align: center;
+
 }
 
 .spaceTextoDestaque {
   display: inline-block;
-  width: 70px;
+  width: 100px;
 }
 
 .spaceValorItens {
   display: inline-block;
-  width: 120px;
+  width: 160px;
+  
 }
 
 .space {
   display: inline-block;
-  width: 50px;
+  width: 30px;
 }
 
 #btnComprador {
@@ -100,6 +111,7 @@ h1 {
 }
 
 #btnVendedor {
+  font-family:'Rubik Bubbles', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color:rgb(169, 47, 206);
   color: white;
   height:35px;
@@ -210,4 +222,19 @@ h1 {
     margin-right: auto;
     image-resolution: auto;
   }
-  
+#btnBusca{
+  float: right;
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  color: black;
+  border-radius: auto;
+}
+
+#btnGeek{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  image-resolution: auto;
+}
+
