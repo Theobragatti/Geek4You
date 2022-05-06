@@ -104,7 +104,6 @@ h1 {
   float: center;
   border-color: #0f8a75;
   border-radius: 5px;
-    
 } 
 
 #divBotoes{
@@ -122,6 +121,107 @@ h1 {
   border-radius: 5px;
 }
 
+#btnAdicionar {
+    background-color:#816ae9;
+    color: white;
+    height:35px;
+    width:150px;
+    float: center;
+    border-color: #816ae9;
+    border-radius:5px;
+    
+} 
+
+#btnComprar {
+    background-color:#a72ba0;
+    color: white;
+    height:35px;
+    width:100px;
+    float: center;
+    border-color: #a72ba0;
+    border-radius:5px;
+    
+} 
+
+#btnProduto {
+  width: 250px;
+  height: 300px;
+  margin: 0 50px; 
+}
+
+#divFrete {
+  margin-right: auto;
+  border:solid 1px;
+  width:300px;
+  height: 30px;  
+}
+
+#txtFrete{
+  float:left;
+  background-color:transparent;
+  padding-left:50px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:200px;
+}
+
+#btnContato {
+    background-color:#816ae9;
+    color: white;
+    height:35px;
+    width:300px;
+    float: center;
+    border-color: #816ae9;
+    border-radius:5px;
+    
+} 
+
+#divContato {
+  text-align: left;
+}
+
+#sessaoCorpo {
+  width:960px;
+  margin: auto;
+  }
+
+  #divConteudo {
+  display: table;
+  }
+  
+  #divImagem {
+  display: table-cell;
+  float: left;
+  }
+
+  #divTexto {
+  display: table-cell;
+  float: left;
+  width: 300px;
+  margin-top: -20px; 
+  margin-left: 20px;
+  }
+
+  #pTextoTitulo {
+    font-weight: bold
+  }
+  
+  #btnBusca{
+    float: right;
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    color: black;
+    border-radius: auto;
+  }
+  
+  #btnGeek{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-resolution: auto;
+  }
 #btnBusca{
   float: right;
   background-color: transparent;
@@ -137,3 +237,4 @@ h1 {
   margin-right: auto;
   image-resolution: auto;
 }
+
