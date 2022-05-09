@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 
+
 <html lang="pt-br">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <head>
-        <script src="jquery-3.6.0.js"></script>
+        <script type="text/javascript" language
+        ="javascript" src="jquery-3.6.0.js"></script>
         <meta charset="UTF-8">
         <title>Geek4You</title>
         <div id="btnGeek">
@@ -15,9 +17,30 @@
 
     <body>
         <div id="divTopo">
-            <h1 id="h1Topo">Bem-vindo(a) à Geek4You</h1>
-            <button type="submit" id="btnEntrar">Entrar</button>
-            <button type="submit" id="btnCadastre">Cadastre-se</button>
+           <h1 id="h1Topo">Bem-vindo(a) à Geek4You</h1>
+           <button type="submit" id="btnEntrar">Entrar</button>
+           <button type="submit" id="btnCadastre">Cadastre-se</button> 
+           <script type="text/javascript">
+                $(document).ready(function(){
+                
+                $("#btnEntrar").click(function() {
+
+                    alert('Desculpe o transtorno, estamos em manutenção!');
+
+                });
+
+                $(document).ready(function(){
+
+                $("#btnCadastre").click(function() {
+
+                    alert('Desculpe o transtorno, estamos em manutenção!');
+                    
+                })
+
+                });
+
+            });
+            </script>
         </div>
         <br/>
         <br/>
@@ -40,6 +63,25 @@
             <div id="divBotoes">
                 <button type="submit" id="btnComprador">Área do Comprador</button>
                 <button type="submit" id="btnVendedor">Área do Vendedor</button>
+                <script type="text/javascript">
+                $(document).ready(function(){
+                
+                    $("#btnComprador").click(function() {
+    
+                        alert('Desculpe o transtorno, estamos em manutenção!');
+    
+                    });
+                $(document).ready(function(){
+    
+                    $("#btnVendedor").click(function() {
+    
+                        alert('Desculpe o transtorno, estamos em manutenção!');
+                        
+                    })
+    
+                    });
+            });
+                </script>
             </div>
             <div id="logoInferior">
                 <img src="imgs/logoInferior.png" id="logoInferior" alt=""/>
